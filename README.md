@@ -16,7 +16,7 @@ all system components managed by Terraform
 ##  Infrastructure Layer
 
 *  Machines Components:
-*   * CI Machine (EC2 VM with Docker).   functioning also as a Prod machine for demonstration
+     * CI Machine (EC2 VM with Docker).   functioning also as a Prod machine for demonstration
 
 
 *  Logs  Components:
