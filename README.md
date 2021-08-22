@@ -28,7 +28,7 @@ all system components managed by Terraform
 
 
 *  Network Components:
-     VPC, Subnet, InternetGW,  RouteTable,  Security Group
+      * VPC, Subnet, InternetGW,  RouteTable,  Security Group
 
 
 ##  Application Layer
