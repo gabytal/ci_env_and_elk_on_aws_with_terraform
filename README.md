@@ -15,20 +15,20 @@ all system components managed by Terraform
 
 ##  Infrastructure Layer
 
-  *  Machines Components:
-    * CI Machine (EC2 VM with Docker).   functioning also as a Prod machine for demonstration
+*  Machines Components:
+  * CI Machine (EC2 VM with Docker).   functioning also as a Prod machine for demonstration
 
 
-  *  Logs  Components:
-    * AWS managed ELK Cluster
+*  Logs  Components:
+  * AWS managed ELK Cluster
 
 
-  *  Versioning Components:
-    * AWS ECR docker repository
+*  Versioning Components:
+  * AWS ECR docker repository
 
 
-  *  Network Components:
-    VPC, Subnet, InternetGW,  RouteTable,  Security Group
+*  Network Components:
+  VPC, Subnet, InternetGW,  RouteTable,  Security Group
 
 
 ##  Application Layer
