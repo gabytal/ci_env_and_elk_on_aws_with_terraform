@@ -1,0 +1,10 @@
+# ES SSH TUNNEL - CONFIG FILE
+# Usage: \\ ssh -N estunnel -v
+# access from local browser - http://localhost:9200/_plugin/kibana/app/kibana
+
+Host estunnel
+Hostname CHANGEME
+User ubuntu
+IdentitiesOnly yes
+IdentityFile C:\Users\user\.ssh\gaby_pri
+LocalForward 9200 vpc-gaby-es-5oa4pfc6gmxo7j4m7tpejqi7gi.us-east-1.es.amazonaws.com:80
