@@ -126,7 +126,7 @@ resource "aws_ecr_repository" "flask_app" {
 
 resource "aws_key_pair" "ci_ssh_pair" {
   key_name = "gaby-test-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAoZMbYDVeHdN3djoLE8z240l5c8g++TYehtZGhnkRNUZdYOppMSbK+8TA+n+bwFzsMVRBT4KVGi17w6fj5tCBOXDTs8nNt93QHNrZHVlGhwSBFnz8x4NoXl3KAXtOM8LQdpwn3NbNYUAbnBlBuC76DPHe49g/GTY/CXanCjZ8ZaLImDQ9EBA6KzJMyp/TicDcsk4kICdR0hr7taynhSfyTFhkNIiOqx+A5FVzp7znN14qCK4pDr3iiBkVlztkO1PUlBidTguxCEtWVIBqVXIv2t5VBBmd13Yq+cexsUCo/9ttkxN4NGUxBnYMBSyL6a8g0v+kX+c5tIt9DNDioXGKGw== rsa-key-20200312"
+  public_key = "CHANGE_ME"
 }
 
 resource "aws_instance" "ci_prod_machine" {
