@@ -18,7 +18,6 @@ output "ci-prod-machine-ip" {
     value = aws_instance.ci_prod_machine.public_ip
 }
 
-
 output "ecr-repo-url" {
     value = aws_ecr_repository.flask_app.repository_url
 }

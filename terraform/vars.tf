@@ -11,7 +11,7 @@ variable "key_name" {
 }
 
 variable "public_key_path" {
-  default = "./"
+  default = "C:/users/user/.ssh/gaby_public"
 }
 
 variable "private_key_path" {
