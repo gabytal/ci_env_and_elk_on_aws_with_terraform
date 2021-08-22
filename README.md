@@ -20,15 +20,15 @@ all system components managed by Terraform
 
 
 *  Logs  Components:
-  * AWS managed ELK Cluster
+     * AWS managed ELK Cluster
 
 
 *  Versioning Components:
-  * AWS ECR docker repository
+      * AWS ECR docker repository
 
 
 *  Network Components:
-  VPC, Subnet, InternetGW,  RouteTable,  Security Group
+     VPC, Subnet, InternetGW,  RouteTable,  Security Group
 
 
 ##  Application Layer
