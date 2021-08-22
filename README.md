@@ -46,7 +46,7 @@ all system components managed by Terraform
 The first thing will be to create the environment.
 1. clone the Terraform GitHub repo (use SSH Key)
   ```sh
-  git git clone git@github.com:gabytal/flask_api_and_elk_on_aws_with_terraform.git --config core.sshCommand="ssh -i ~.ssh/private_key"
+  git clone git@github.com:gabytal/flask_api_and_elk_on_aws_with_terraform.git --config core.sshCommand="ssh -i ~.ssh/private_key"
   ```
 2. cd to terraform folder
   ```sh
