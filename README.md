@@ -15,19 +15,19 @@ all system components managed by Terraform
 
 ##  Infrastructure Layer
 
-* ####Machines Components:
+*  Machines Components:
   * CI Machine (EC2 VM with Docker).   functioning also as a Prod machine for demonstration
     
 
-* ####Logs  Components:
+*  Logs  Components:
   * AWS managed ELK Cluster
 
 
-* #### Versioning Components:
+*  Versioning Components:
   * AWS ECR docker repository
 
 
-* #### Network Components:
+*  Network Components:
   VPC, Subnet, InternetGW,  RouteTable,  Security Group
 
 
@@ -40,7 +40,7 @@ all system components managed by Terraform
         * marshmallow 3.13.0 - for request data validations
         
 
-##API Features:
+## API Features:
   * supports POST requests
     * supported data type: application/json
     supported keys:
@@ -90,8 +90,6 @@ The first thing will be to create the environment.
   ```sh
   terraform plan
   ```
-
-
 4. apply Terraform
   ```sh
   terraform apply
@@ -111,7 +109,6 @@ The first thing will be to create the environment.
  * Test the API
  * Push Artifact version at ECR Repo  
  * Deploy the Artifact to the production server
-
 
 ###Usage
 #### This process needs to be executed each time a new version of the API is ready.
@@ -143,9 +140,6 @@ in a better world, this ci-cd script will be replaced with a Jenkins pipeline.
     ```sh
     sudo./ci-cd.sh <VERSION> <ELK_HOST> <ECR_REPO>
     ```
-
-
-
 
 
 #
