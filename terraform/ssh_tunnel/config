@@ -6,5 +6,5 @@ Host estunnel
 Hostname CHANGEME
 User ubuntu
 IdentitiesOnly yes
-IdentityFile C:\Users\user\.ssh\gaby_pri
-LocalForward 9200 vpc-gaby-es-5oa4pfc6gmxo7j4m7tpejqi7gi.us-east-1.es.amazonaws.com:80
+IdentityFile ~/.ssh/private_key
+LocalForward 9200 <KIBANA URL IN VPC:PORT>
